@@ -100,11 +100,9 @@ struct CCompiler {
     int            token;
     int            flags;
     CNode         *nodes;
-    union {
-        size_t     switch_count;
-        size_t     loop_count;
-        size_t     label_count;
-    };
+    size_t         switch_count;
+    size_t         loop_count;
+    size_t         label_count;
     CInstruction  *head;
     CInstruction  *tail;
 };
