@@ -1,3 +1,4 @@
+// by Eduardo Acauan
 #pragma once
 
 #include <stdio.h>
@@ -7,9 +8,7 @@
 #include "misc.h"
 #include <assert.h>
 #include <string.h>
-#include <stdarg.h>
 #include <limits.h>
-#include <string.h>
 
 /**************************************************
 *      C Compiler Memory MAP                      *
